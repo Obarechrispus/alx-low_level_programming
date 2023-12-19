@@ -1,14 +1,18 @@
 #include "main.h"
+
 /**
-*print_alphabet- 1. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
-*returns always (0)
-*/
-void print_alphabet(void);
+  * print_alphabet -  alphabet
+  *
+  * Return: void
+  */
+void print_alphabet(void)
 {
-char x;
-for (x = 'a'; x <= 'z'; x++)
-{
-_putchar(x);
-}
-_putchar('\n');
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+
+	_putchar('\n');
 }
