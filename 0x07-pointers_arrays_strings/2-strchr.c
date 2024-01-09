@@ -1,27 +1,15 @@
 #include "main.h"
-#include <string.h>
+
 /**
- *
- *
- *
- *
+ *_strchr - copies
+ *@s:string
+ *@c: character
+ *Return: "s"
  */
 
 char *_strchr(char *s, char c)
 {
-	int legnth = strlen(s);
-	int i;
-
-	for (i = 0; i < legnth; i++)
-	{
-		if (s[i] == c)
-		{
-		return s;
-		}
-		else 
-		{
-		return (NULL);
-		}
-	}
-	return (s);
+	/* from src to dest*/
+	_memcpy(dest, src, sizeof(int)*n);
+	return (dest);	
 }
