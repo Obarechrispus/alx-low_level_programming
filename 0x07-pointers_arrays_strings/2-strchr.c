@@ -9,7 +9,12 @@
 
 char *_strchr(char *s, char c)
 {
-	/* from src to dest*/
-	_memcpy(dest, src, sizeof(int)*n);
-	return (dest);	
+	int i;
+
+	for (i = 0; s[i] >= '\0'; i++)
+	{
+	if (s[i] == c)
+	return (s + i);
+	}
+	 return (0);
 }
