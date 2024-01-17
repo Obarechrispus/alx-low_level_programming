@@ -3,7 +3,7 @@
 /**
  * _strdup - copies a string
  *@str: returns
- *Returns: value
+ *Return: value
  */
 
 char *_strdup(char *str)
