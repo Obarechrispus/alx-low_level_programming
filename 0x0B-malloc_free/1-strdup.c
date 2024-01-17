@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * _strdup
+ * _strdup - copies a string
  *@str: returns
  *Returns: value
  */
 
 char *_strdup(char *str)
 {
-	int a = 0,i = 1;
+	int a = 0;
+	int i = 1;
 	char *s;
-	
+
 	if (str == NULL)
 		return (NULL);
 	while (str[i])
