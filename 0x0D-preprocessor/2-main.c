@@ -2,13 +2,14 @@
 
 /**
  *main - entry point
- *
- *return: zeor
+ *@void: zero
+ *Return: zeor
  */
-int main ()
+int main(void)
 {
 	char *file = __FILE__;
-	for (; *file != '\0';file++)
+
+	for (; *file != '\0'; file++)
 	{
 		putchar (*file);
 	}
