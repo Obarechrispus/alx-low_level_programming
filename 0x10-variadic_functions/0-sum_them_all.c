@@ -1,6 +1,12 @@
 #include "variadic_functions.h"
 #include <stdio.h>
-
+/**
+ *sum_them_all - the function
+ *@n: takes the argument
+ *
+ *
+ *Return: null
+ */
 int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
