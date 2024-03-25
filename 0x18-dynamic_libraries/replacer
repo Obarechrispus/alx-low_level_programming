@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Loop through all .c files in the current directory
+for file in *.c; do
+    # Replace "NULL" with '0' in the current file and overwrite it
+    sed -i 's/NULL/0/g' "$file"
+done
+
+echo "Replacement completed successfully."
+
