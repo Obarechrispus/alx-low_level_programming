@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Loop through all .c files in the current directory
+for file in *.c; do
+    # Add (void) to unused parameters in function prototypes
+    sed -i 's/\(^[[:space:]]*[a-zA-Z0-9_*[:space:]]\{1,\}\)[(][^)]*[)][[:space:]]*;/\1(void);/g' "$file"
+done
+
+echo "Initialization of unused parameters in function prototypes completed successfully."
+
