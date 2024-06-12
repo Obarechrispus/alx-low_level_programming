@@ -1,0 +1,6 @@
+school:  # Target (executable)
+
+# No explicit dependencies listed (assumed none)
+    g++ -o school school.cpp  # Recipe (compile C++ code)
+
+all: school  # "all" depends on the "school" target
